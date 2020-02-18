@@ -1,0 +1,6 @@
+s6d2@ceclab3-H110M-S2:~/Desktop/Shylesh/Exp5$ ./exp5 
+Thread created successfully
+Enter two numbers : 4
+5
+Sum = 9
+Thread finished successfully

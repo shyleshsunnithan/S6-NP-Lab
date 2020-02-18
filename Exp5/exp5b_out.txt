@@ -1,0 +1,13 @@
+s6d2@ceclab3-H110M-S2:~/Desktop/Shylesh/Exp5$ ./exp5b
+Enter two numbers for Thread 1
+5  
+4
+Enter two numbers for Thread 1
+2
+3
+Thread 1 created successfully
+Thread 2 created successfully
+[Thread2] :: Sum = 5
+[Thread1] :: Sum = 9
+Thread 1 finished successfully
+Thread 2 finished successfully

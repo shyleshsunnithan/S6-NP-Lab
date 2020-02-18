@@ -1,0 +1,20 @@
+s6d2@ceclab3-H110M-S2:~/Desktop/Shylesh/Exp4$ ./exp4 
+Enter Limit : 
+14
+Parent ID :  2584
+Child ID :  4501
+Child ::  0
+Child ::  2
+Child ::  4
+Child ::  6
+Child ::  8
+Child ::  10
+Child ::  12
+Parent ::  1
+Parent ::  3
+Parent ::  5
+Parent ::  7
+Parent ::  9
+Parent ::  11
+Parent ::  13
+

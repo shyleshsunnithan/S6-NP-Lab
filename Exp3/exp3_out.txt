@@ -1,0 +1,28 @@
+s6d2@ceclab3-H110M-S2:~/Desktop/Shylesh$ ./stu
+Enter number of students : 4
+Student No. 1
+Enter Roll.no : 47
+Enter Name : Shylesh
+Enter Branch Name: CSE
+
+Student No. 2
+Enter Roll.no : 56
+Enter Name : Vishak PV
+Enter Branch Name: ECE
+
+Student No. 3
+Enter Roll.no : 23 
+Enter Name : Govind
+Enter Branch Name: EEE
+
+Student No. 4
+Enter Roll.no : 27
+Enter Name : Jathin
+Enter Branch Name: CSE
+
+Enter Roll.no of Student to Read : 47
+
+Student Details Found!!
+Name : Shylesh
+Branch : CSE
+
