@@ -14,7 +14,7 @@ int main() {
 	int fd, i, n, rno, found=0;
 	char buff[32];
 	fd = open("students.txt", O_RDWR | O_CREAT | O_TRUNC, 0755);
-	printf("Enter number of students : ");
+	printf("Enter Number of Students : ");
 	fgets(buff, 32, stdin);
 	trim(buff);
 	n = atoi(buff);
