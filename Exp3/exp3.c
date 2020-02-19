@@ -39,7 +39,7 @@ int main() {
 		
 	}
 	lseek(fd, 0, SEEK_SET);
-	printf("Enter rno of student to read : ");
+	printf("Enter Roll no of student to read : ");
 	fgets(buff, 32, stdin);
 	rno = atoi(buff);
 	printf("\n");
@@ -47,11 +47,11 @@ int main() {
 		read(fd, buff, sizeof(buff));
 		if (atoi(buff) == rno) {
 			found = 1;
-			printf("STUDENT FOUND\n");
+			printf("STUDENT RECORD FOUND\n");
 			read(fd, buff, sizeof(buff));
-			printf("Name : %s\n", buff);
+			printf("Name is %s\n", buff);
 			read(fd, buff, sizeof(buff));
-			printf("Branch : %s\n", buff);
+			printf("Branch is %s\n", buff);
 			break;
 		} else {
 			lseek(fd, 64, SEEK_CUR);
