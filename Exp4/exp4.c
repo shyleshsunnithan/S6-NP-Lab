@@ -13,7 +13,7 @@ int main()
 		
 		for(i=0;i<n;i++){
 			if(i%2==1){
-				printf("Parent ::  %d\n",i);
+				printf("Parent -->  %d\n",i);
 			}
 		
 		}
@@ -26,7 +26,7 @@ int main()
 		printf("Child ID :  %d\n",getpid());
 		for(i=0;i<n;i++){
 			if(i%2==0){
-				printf("Child ::  %d\n",i);
+				printf("Child -->  %d\n",i);
 			}
 		
 		}
