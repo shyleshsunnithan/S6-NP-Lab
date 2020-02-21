@@ -4,7 +4,7 @@
 int main()
 {
 	int p_id,i,n;
-	printf("Enter Limit : \n");
+	printf("Enter the Limit : \n");
 	scanf("%d",&n);
 	
 	p_id = fork();
@@ -22,8 +22,8 @@ int main()
 	
 	else{
 		
-		printf("Parent ID :  %d\n",getppid());
-		printf("Child ID :  %d\n",getpid());
+		printf("Parent ID is  %d\n",getppid());
+		printf("Child ID is  %d\n",getpid());
 		for(i=0;i<n;i++){
 			if(i%2==0){
 				printf("Child -->  %d\n",i);
