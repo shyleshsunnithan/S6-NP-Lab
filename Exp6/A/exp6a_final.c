@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     // fork() returns 0 for child process, child-pid for parent process.
     if (fork() != 0)
     {
-        // parent: writing only, so close read-descriptor.
+        // parent: writing only, so closing read-descriptor.
        close(fd1[0]);
 
         // send the value on the write-descriptor.
