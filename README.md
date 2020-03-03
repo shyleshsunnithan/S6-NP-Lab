@@ -7,5 +7,4 @@ KTU S6 CSE Network Programming Lab Experiments
  - [x] EXP4 - Experiment using fork().
  - [x] EXP5 - Experiment using Threads
  - [x] EXP6 - Experiment using pipe(), Interprocess Communication using Message passing and shared memory
- - [x] Setting up HTTP and FTP server
 
